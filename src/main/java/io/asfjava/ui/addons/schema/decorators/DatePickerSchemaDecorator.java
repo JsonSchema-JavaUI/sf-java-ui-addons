@@ -6,7 +6,7 @@ import com.fasterxml.jackson.module.jsonSchema.JsonSchema;
 import com.fasterxml.jackson.module.jsonSchema.types.StringSchema;
 
 import io.asfjava.ui.addons.forms.DatePicker;
-import io.asfjava.ui.schema.decorator.SchemaDecorator;
+import io.asfjava.ui.core.schema.decorators.SchemaDecorator;
 
 public class DatePickerSchemaDecorator implements SchemaDecorator {
 

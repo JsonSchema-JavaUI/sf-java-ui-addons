@@ -39,7 +39,8 @@ public class DatePickerGenerator implements FormDefinitionGenerator {
 		}
 	}
 
-	public String getAnnoation() {
+	public String getAnnotation() {
 		return DatePicker.class.getName();
 	}
+
 }
