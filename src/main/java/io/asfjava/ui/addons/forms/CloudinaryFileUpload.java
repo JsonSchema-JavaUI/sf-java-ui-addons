@@ -16,5 +16,7 @@ public @interface CloudinaryFileUpload {
 	String uploadPreset();
 
 	String placeHolder() default "";
+	
+	boolean skipAuthorization() default true;
 
 }

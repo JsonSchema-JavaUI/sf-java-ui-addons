@@ -19,6 +19,7 @@ public class CloudinaryFileUploadGenerator implements FormDefinitionGenerator {
 		fieldFormDefinition.put("cloudName", annotation.cloudName());
 		fieldFormDefinition.put("uploadPreset", annotation.uploadPreset());
 		fieldFormDefinition.put("label", annotation.title());
+		fieldFormDefinition.put("skipAuthorization", annotation.skipAuthorization());
 	}
 
 	@Override
